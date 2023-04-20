@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -49,4 +50,54 @@
 }
 .project-inline-blocks-text span {
     color: #959595;
+
+
+h1{
+	font-size: 30px;
+}
+.THEMATIQUE{
+	display: inline-block;
+}
+.OUTILS{
+	display: inline-block;
+}
+.GROS_OEUVRE_button{
+	font-size: 12px;
+	background-color: blue;
+	color: white;
+	height: 38px;
+	width: 126px;
+	margin-left: 40px;
+	margin-top: 50px;
+}
+.APP_button{
+	font-size: 14px;
+	margin-left: 40px;
+	height: 30px;
+	width: 59px;
+	margin-top: 40px;
+
+}
+h2{
+	font-size: 33px;
+	width: 600px;
+	color:#262626;
+	padding-top: 25px;
+}
+.paragrap_style{
+	color: #434343;
+	font-size: 25px;
+	width: 650px;
+	padding-top: 70px;
+	line-height:-12px;
+}
+.container{
+	padding-left: 180px;
+}
+.span_div{
+	color: #959595;
+	padding-top: 20px;
+}
+.build{
+	margin-top: 100px;
 }
