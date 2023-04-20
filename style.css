@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.footer-boxes {
+    display: inline-block;
+    vertical-align: top;  
+    margin-left: 60px;
+    text-align: center;
+}
+.footer-boxes a {
+    text-decoration: none;
+    color: #959595;
+}
+.footer-boxes ul {
+    list-style-type: none;
+    font-size: 11px;
+    color: #959595;
+}
+.footer-boxes h6 {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.footer-boxes li {
+    line-height: 50px;
+}
