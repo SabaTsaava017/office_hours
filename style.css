@@ -1,8 +1,10 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .footer-container {
     max-width: 1440px;
     margin: 0 auto;
@@ -30,3 +32,157 @@
 .footer-boxes li {
     line-height: 50px;
 }
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.projects-blocks {
+  width:calc(100%-360px);
+}
+.projects-blocks-title h5{
+    
+    font-size: 14px;
+    letter-spacing: 1.4px;
+}
+.project-inline-blocks {
+    margin-top: 100px;
+    margin-left: 100px;
+    display: inline-block;
+    width: 320px;
+    height: 465px;
+}
+.projects-blocks-title h5 {
+    font-size: 14px;
+    letter-spacing: 1.4px ;
+}
+.project-inline-blocks  img {
+    width: 100%;
+    height: 320px;
+}
+
+.logo img {
+  width: 27px;
+  margin-left: 25px;
+}
+header {
+  width: 100%;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+}
+.header {
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+  padding: 25px 0 25px 0;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  font-family: "DM Sans", sans-serif;
+  text-transform: uppercase;
+  margin-right: 127px;
+}
+.header li::after {
+  content: "";
+  display: inline-block;
+  height: 10px;
+  width: 1px;
+  background-color: #000000;
+  margin-left: 10px;
+}
+.header li:last-child::after {
+  display: none;
+}
+.header a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header li {
+  margin-right: 10px;
+}
+.wallpaper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.wallpaper img {
+  width: 100%;
+}
+
+.project-inline-blocks-text {
+    width: 250px;
+    height: 141px;
+    margin-left: 50px;
+
+}
+.project-inline-blocks-text h4 {
+    padding-top: 20px;
+    font-size: 14px;
+    letter-spacing: 1.3px;
+}
+.project-inline-blocks-text p {
+    padding-top: 5px;
+    font-size: 14px;
+    text-align: left;
+}
+.project-inline-blocks-text span {
+    color: #959595;
+
+
+h1{
+	font-size: 30px;
+}
+.THEMATIQUE{
+	display: inline-block;
+}
+.OUTILS{
+	display: inline-block;
+}
+.GROS_OEUVRE_button{
+	font-size: 12px;
+	background-color: blue;
+	color: white;
+	height: 38px;
+	width: 126px;
+	margin-left: 40px;
+	margin-top: 50px;
+}
+.APP_button{
+	font-size: 14px;
+	margin-left: 40px;
+	height: 30px;
+	width: 59px;
+	margin-top: 40px;
+
+}
+h2{
+	font-size: 33px;
+	width: 600px;
+	color:#262626;
+	padding-top: 25px;
+}
+.paragrap_style{
+	color: #434343;
+	font-size: 25px;
+	width: 650px;
+	padding-top: 70px;
+	line-height:-12px;
+}
+.container{
+	padding-left: 180px;
+}
+.span_div{
+	color: #959595;
+	padding-top: 20px;
+}
+.build{
+	margin-top: 100px;
+}
+
